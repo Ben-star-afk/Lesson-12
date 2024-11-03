@@ -1,56 +1,47 @@
 <html>
     <head>
-        <title>Posititoning in css</title>
+        <title>homework</title>
         <style>
-            h2{
-                text-decoration: underline;
-                font-family:Arial, Helvetica, sans-serif;            
+            div{                
+                padding: 1px;
             }
-            div{
-                right: 30px;
-                border: 3px solid crimson;
-            }
-          
-               .absolute{
-                position: absolute;
-                left: 50px;
-                border: 3px solid aqua;
-            }   .relative{
-                position: relative;
-                left: 100px;
-                border: 3px solid blue;
-            }   .fixed{
+            .math{
                 position: fixed;
                 top: 0;
-                width: 300px;
-                right: 20px;
-                border: 3px solid blueviolet;
+                opacity: 0.6;
             }
-                .sticky{
-                position: sticky;
+             .eng{
+                position: relative;
+                top: 2px;
+                left: 50px;
+                width: 200px;                
+                opacity: 0.3;
+            }
+             .math{
+                position: absolute;
                 top: 1px;
-                width: 100px;
-                left: 20px;
-                border: 3px solid orange;
+                right: 200px;
+                width: 50px;
+                opacity: 0.1;
+            }
+             .math{
+                position: sticky;
+                opacity: 1;
             }
         </style>
     </head>
     <body>
-        <h2>POSITIONING</h2>
         <div>
-            Div with no Posititioning property
+            <p class="math">My name is benedict</p>
         </div>
-        <div class="sticky">
-            Div with sticky Posititioning property
+        <div>
+            <p class="eng">My name is benedict</p>
         </div>
-        <div class="relative">
-            This div tag has positioning property;relative
-            <div class="absolute">
-                Absolute class div
-            </div>
+        <div>
+            <p class="sci">My name is benedict</p>
         </div>
-        <div class="fixed">
-            Div with fixed position property
+        <div>
+            <p class="phy">My name is benedict</p>
         </div>
     </body>
 </html>
